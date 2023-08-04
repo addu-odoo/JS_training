@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="owl_playground.buttons" owl="1">
+        <Scoreboard user="user_score.value" pc="pc_score.value"/>
+        <div class="row">
+            <div class="col-4">
+                <button class="btn btn-primary btn-block" t-on-click="rock">Rock</button>
+            </div>
+            <div class="col-4">
+                <button class="btn btn-primary btn-block" t-on-click="paper">Paper</button>
+            </div>
+            <div class="col-4">
+                <button class="btn btn-primary btn-block" t-on-click="scissior">Scissior</button>
+            </div>
+        </div>
+        <Result vl="vl.value" rl="result.value"/>
+    </t>
+</templates>

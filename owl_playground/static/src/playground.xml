@@ -15,6 +15,14 @@
 
             <TodoList/>  
         </center> 
+        <div class="container d-flex justify-content-center align-items-center" style="height: 50vh;">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h1 class="card-title">Rock-Paper-Scissior Game</h1>
+                        <Buttons/>
+                    </div>
+                </div>
+            </div>
     </t>
 
 </templates>

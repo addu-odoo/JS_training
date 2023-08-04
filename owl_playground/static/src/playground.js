@@ -3,9 +3,10 @@
 import { Card } from "./card/card";
 import { Counter } from "./counter/counter";
 import { TodoList } from "./todo_list/todo_list";
+import { Buttons } from "./buttons/buttons"
 import { Component } from "@odoo/owl";
 
 export class Playground extends Component {
     static template = "owl_playground.playground";
-     static components = { Counter, TodoList, Card };
+     static components = { Counter, TodoList, Card, Buttons };
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="owl_playground.scoreboard" owl="1">
+            <strong>
+                <div class="col-4">SELFUSER: <t t-esc="props.user"/></div>
+                <div class="col-4">COMPUTER: <t t-esc="props.pc"/></div>
+            </strong>
+        </div>
+    </t>
+</templates>

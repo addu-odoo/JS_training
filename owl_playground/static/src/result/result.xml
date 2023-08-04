@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <t t-name="owl_playground.result" owl="1">
+        <strong>
+            <div>
+                <t t-esc="props.vl"/>
+            </div>
+            <div>
+                <t t-esc="props.rl"/>
+            </div>
+        </strong>
+    </t>
+</templates>
