@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+
+    <t t-name="owl_playground.playground" owl="1">
+        <center>
+            <div class="p-3">
+                Hello World
+                <Counter/>
+            </div>
+
+            <card>
+                <t t-set-slot='title'>OWL</t>
+                Slot Card
+            </card>
+
+            <TodoList/>  
+        </center> 
+    </t>
+
+</templates>
